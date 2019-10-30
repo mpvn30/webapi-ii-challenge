@@ -8,6 +8,6 @@ server.use(express.json());
 
 server.use('/api/posts', postRouter);
 
-server.listen(5000, () => {
-  console.log('\n*** Server Running on http://localhost:5000 ***\n');
+server.listen(5002, () => {
+  console.log('\n*** Server Running on http://localhost:5002 ***\n');
 });
